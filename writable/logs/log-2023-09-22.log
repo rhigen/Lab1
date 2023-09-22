@@ -1,0 +1,325 @@
+ERROR - 2023-09-22 10:08:52 --> mysqli_sql_exception: Table 'tbldstud.students' doesn't exist in C:\laragon\www\Lab1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Lab1\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Lab1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Lab1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Lab1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Lab1\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Lab1\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Lab1\app\Controllers\StudentController.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Lab1\system\CodeIgniter.php(919): App\Controllers\StudentController->student()
+#8 C:\laragon\www\Lab1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#9 C:\laragon\www\Lab1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Lab1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Lab1\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-09-22 10:08:52 --> Table 'tbldstud.students' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `students`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\StudentController.php(21): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StudentController->student()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Lab1\\public\\index.php')
+ERROR - 2023-09-22 10:14:19 --> mysqli_sql_exception: Table 'tbldstud.students' doesn't exist in C:\laragon\www\Lab1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Lab1\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Lab1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Lab1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Lab1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Lab1\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Lab1\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Lab1\app\Controllers\StudentController.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Lab1\system\CodeIgniter.php(919): App\Controllers\StudentController->student()
+#8 C:\laragon\www\Lab1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#9 C:\laragon\www\Lab1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Lab1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Lab1\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-09-22 10:14:19 --> Table 'tbldstud.students' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `students`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\StudentController.php(21): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StudentController->student()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Lab1\\public\\index.php')
+ERROR - 2023-09-22 10:15:49 --> mysqli_sql_exception: Table 'tbldstud.students' doesn't exist in C:\laragon\www\Lab1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Lab1\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Lab1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Lab1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Lab1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Lab1\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Lab1\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Lab1\app\Controllers\StudentController.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Lab1\system\CodeIgniter.php(919): App\Controllers\StudentController->student()
+#8 C:\laragon\www\Lab1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#9 C:\laragon\www\Lab1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Lab1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Lab1\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-09-22 10:15:49 --> Table 'tbldstud.students' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `students`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\StudentController.php(21): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StudentController->student()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Lab1\\public\\index.php')
+ERROR - 2023-09-22 10:15:51 --> mysqli_sql_exception: Table 'tbldstud.students' doesn't exist in C:\laragon\www\Lab1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Lab1\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Lab1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Lab1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Lab1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Lab1\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Lab1\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Lab1\app\Controllers\StudentController.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Lab1\system\CodeIgniter.php(919): App\Controllers\StudentController->student()
+#8 C:\laragon\www\Lab1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#9 C:\laragon\www\Lab1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Lab1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Lab1\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-09-22 10:15:51 --> Table 'tbldstud.students' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `students`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\StudentController.php(21): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StudentController->student()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Lab1\\public\\index.php')
+ERROR - 2023-09-22 10:16:48 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'tblstud' in C:\laragon\www\Lab1\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\laragon\www\Lab1\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'tblstud', 3306, '', 0)
+#1 C:\laragon\www\Lab1\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\Lab1\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\Lab1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Lab1\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Lab1\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Lab1\app\Controllers\StudentController.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Lab1\system\CodeIgniter.php(919): App\Controllers\StudentController->student()
+#8 C:\laragon\www\Lab1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#9 C:\laragon\www\Lab1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Lab1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Lab1\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'tblstud' in C:\laragon\www\Lab1\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\laragon\www\Lab1\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\Lab1\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\Lab1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\laragon\www\Lab1\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\Lab1\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\laragon\www\Lab1\app\Controllers\StudentController.php(21): CodeIgniter\BaseModel->findAll()
+#6 C:\laragon\www\Lab1\system\CodeIgniter.php(919): App\Controllers\StudentController->student()
+#7 C:\laragon\www\Lab1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#8 C:\laragon\www\Lab1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Lab1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\Lab1\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2023-09-22 10:16:48 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'tblstud'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `students`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\StudentController.php(21): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StudentController->student()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Lab1\\public\\index.php')
+ERROR - 2023-09-22 10:22:36 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'tblstud' in C:\laragon\www\Lab1\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\laragon\www\Lab1\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'tblstud', 3306, '', 0)
+#1 C:\laragon\www\Lab1\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\Lab1\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\Lab1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Lab1\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Lab1\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Lab1\app\Controllers\StudentController.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Lab1\system\CodeIgniter.php(919): App\Controllers\StudentController->student()
+#8 C:\laragon\www\Lab1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#9 C:\laragon\www\Lab1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Lab1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Lab1\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'tblstud' in C:\laragon\www\Lab1\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\laragon\www\Lab1\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\Lab1\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\Lab1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\laragon\www\Lab1\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\Lab1\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\laragon\www\Lab1\app\Controllers\StudentController.php(21): CodeIgniter\BaseModel->findAll()
+#6 C:\laragon\www\Lab1\system\CodeIgniter.php(919): App\Controllers\StudentController->student()
+#7 C:\laragon\www\Lab1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#8 C:\laragon\www\Lab1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Lab1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\Lab1\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2023-09-22 10:22:36 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'tblstud'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `students`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\StudentController.php(21): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StudentController->student()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Lab1\\public\\index.php')
+ERROR - 2023-09-22 10:22:38 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'tblstud' in C:\laragon\www\Lab1\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\laragon\www\Lab1\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'tblstud', 3306, '', 0)
+#1 C:\laragon\www\Lab1\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\Lab1\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\Lab1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Lab1\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Lab1\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Lab1\app\Controllers\StudentController.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Lab1\system\CodeIgniter.php(919): App\Controllers\StudentController->student()
+#8 C:\laragon\www\Lab1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#9 C:\laragon\www\Lab1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Lab1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Lab1\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'tblstud' in C:\laragon\www\Lab1\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\laragon\www\Lab1\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\Lab1\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\Lab1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\laragon\www\Lab1\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\Lab1\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\laragon\www\Lab1\app\Controllers\StudentController.php(21): CodeIgniter\BaseModel->findAll()
+#6 C:\laragon\www\Lab1\system\CodeIgniter.php(919): App\Controllers\StudentController->student()
+#7 C:\laragon\www\Lab1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#8 C:\laragon\www\Lab1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Lab1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\Lab1\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2023-09-22 10:22:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'tblstud'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `students`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\StudentController.php(21): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StudentController->student()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Lab1\\public\\index.php')
+ERROR - 2023-09-22 10:23:47 --> mysqli_sql_exception: Table 'tbldstud.students' doesn't exist in C:\laragon\www\Lab1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Lab1\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Lab1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Lab1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Lab1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Lab1\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Lab1\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Lab1\app\Controllers\StudentController.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Lab1\system\CodeIgniter.php(919): App\Controllers\StudentController->student()
+#8 C:\laragon\www\Lab1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#9 C:\laragon\www\Lab1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Lab1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Lab1\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-09-22 10:23:47 --> Table 'tbldstud.students' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `students`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\StudentController.php(21): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StudentController->student()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Lab1\\public\\index.php')
+CRITICAL - 2023-09-22 10:49:19 --> Invalid file: "student.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('student.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('student', [], true)
+ 3 APPPATH\Controllers\StudentController.php(24): view('student', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StudentController->student()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Lab1\\public\\index.php')
+CRITICAL - 2023-09-22 11:12:45 --> Undefined array key "id"
+in APPPATH\Views\main.php on line 9.
+ 1 APPPATH\Views\main.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\Lab1\\app\\Views\\main.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Lab1\\app\\Views\\main.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('main', [], true)
+ 5 APPPATH\Controllers\StudentController.php(24): view('main', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StudentController->student()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Lab1\\public\\index.php')
+CRITICAL - 2023-09-22 11:18:17 --> Undefined array key "id"
+in APPPATH\Views\main.php on line 9.
+ 1 APPPATH\Views\main.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\Lab1\\app\\Views\\main.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Lab1\\app\\Views\\main.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('main', [], true)
+ 5 APPPATH\Controllers\StudentController.php(24): view('main', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StudentController->student()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Lab1\\public\\index.php')
+CRITICAL - 2023-09-22 13:37:47 --> Undefined array key "gender"
+in APPPATH\Views\main.php on line 20.
+ 1 APPPATH\Views\main.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "gender"', 'C:\\laragon\\www\\Lab1\\app\\Views\\main.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Lab1\\app\\Views\\main.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('main', [], true)
+ 5 APPPATH\Controllers\StudentController.php(25): view('main', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StudentController->student()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Lab1\\public\\index.php')
+CRITICAL - 2023-09-22 15:20:06 --> Undefined array key "id"
+in APPPATH\Views\main.php on line 56.
+ 1 APPPATH\Views\main.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\Lab1\\app\\Views\\main.php', 56)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Lab1\\app\\Views\\main.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('main', [], true)
+ 5 APPPATH\Controllers\StudentController.php(25): view('main', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StudentController->student()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Lab1\\public\\index.php')
